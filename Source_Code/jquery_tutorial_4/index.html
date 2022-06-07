@@ -5,7 +5,7 @@
   <body>
     <div>
       <p>This is a sentence</p>
-      <p class="super"> Here's another one </p>
+      <p id="super"> Here's another one </p>
       <h4 class="super"> Don't forget this one! </h4>
     </div>
 
@@ -13,7 +13,10 @@
 
     <script>
 
-      $("p").hide();
+      // $("h4").addClass("colorful timestwo");
+      // $("h4").removeClass("timestwo");
+
+      $("p#super, h4").addClass("colorful timestwo")
 
     </script>
 
